@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" >
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section id="left">
+            <div id="logo-wrapper">
+                <img src="./images/odin-lined.png" alt="odin logo" id="logo-image">
+                <h1 id="logo-text">ODIN</h1>
+            </div>
+            <p id="rights">
+                Photo by 
+                <a href="https://unsplash.com/@haliewestphoto">Halie West</a> 
+                on 
+                <a href="https://unsplash.com/">Unsplash</a>
+            </p>
+        </section>
+
+        <section id="right">
+            <div id="info-text-wrapper" class="left-margin">
+                <p id="info-text" class="resizable-text">
+                    This is not a real online service!
+                    You know you need something like this in your life to help you realize
+                    your deepest dreams.
+                    Sign up now to get started.
+                </p>
+                <p id="info-subtext" class="resizable-text">You know you want to.</p>
+            </div>
+            <div id="form-wrapper">
+                
+                <form action="" id="signup-form">
+                    
+                    <div id="upper-form-wrapper">
+                        <h3 id="form-title" class="left-margin resizable-text">Let's do this!</h3>
+                        <p class="left-margin">
+                            <label for="first-name">FIRST NAME<span aria-label="required">*</span></label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </p>
+                        <p class="left-margin">
+                            <label for="last-name">LAST NAME<span aria-label="required">*</span></label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </p>
+                        <p class="left-margin">
+                            <label for="email">EMAIL<span aria-label="required">*</span></label>
+                            <input type="emai" id="email" name="user-email" required>
+                        </p>
+                        <p class="left-margin">
+                            <label for="user-telephone">PHONE NUMBER</label>
+                            <input type="tel" id="user-telephone" name="user-phone">
+                        </p>
+                        <p class="left-margin">
+                            <label for="password">PASSWORD<span aria-label="required">*</span></label>
+                            <input type="password" id="password" name="user-password" required>
+                        </p>
+                        <p class="left-margin" id="pass-container">
+                            <label for="password-confirmation">CONFIRM PASSWORD<span aria-label="required">*</span></label>
+                            <input type="password" id="password-confirmation" required>
+                        </p>
+                    </div>
+                    <div id="bottom-form-wrapper" class="left-margin">
+                        <button type="submit">Create Account</button>
+                        <p id="already-subbed">Already have an account? <button type="button" class="no-style">Log in</button></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
